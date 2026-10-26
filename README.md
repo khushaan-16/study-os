@@ -1,20 +1,47 @@
+# StudyOS — Personal Academic Operating System
 
-# React + Vite
+StudyOS is a modern student productivity platform that helps students manage subjects, tasks, exams, study sessions, notes, and academic progress in one place.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Dashboard:** Daily tasks, upcoming exams, and study statistics.
+- **Subject Management:** Organize subjects, topics, and progress.
+- **Task & Exam Planner:** Manage deadlines, priorities, and exam preparation.
+- **Pomodoro Timer:** Track focused study sessions.
+- **Analytics:** Visualize study habits and subject performance.
+- **Smart Study Planner:** Generate personalized study schedules.
+- **AI Study Assistant:** Get topic explanations, quizzes, and revision plans.
+- **Responsive UI:** Dark/light themes and mobile-friendly design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React.js, Vite, JavaScript
+- Tailwind CSS
+- React Router DOM
+- Context API
+- Firebase Authentication & Firestore
+- Recharts
+- Lucide React
+- Google Gemini API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+```bash
+git clone YOUR_REPOSITORY_URL
+cd studyos
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# study-os
->>>>>>> bc04d8e375b3c2af9be76e6f654db81f251aec89
+Configure Firebase and Gemini API credentials in a `.env` file using `.env.example` as a reference.
+
+## Future Improvements
+
+- Advanced revision scheduling
+- Academic calendar integration
+- Notifications and reminders
+- Enhanced performance analytics
+
+## Author
+
+**Khushaan** | [GitHub](https://github.com/khushaan-16) | [LinkedIn](https://www.linkedin.com/in/khushaan-lal-342360378/?isSelfProfile=true)
