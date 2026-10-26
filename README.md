@@ -1,5 +1,7 @@
 # StudyOS — Personal Academic Operating System
 
+LIVE DEMO: https://studymate-os.netlify.app/
+
 StudyOS is a modern student productivity platform that helps students manage subjects, tasks, exams, study sessions, notes, and academic progress in one place.
 
 ## Features
